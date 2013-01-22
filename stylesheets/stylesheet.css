@@ -95,7 +95,7 @@ p.tagline {
 
 #main {
   margin-top: 20px;
-  padding: 0 20px 90px;
+  padding: 0 20px 20px;
   background-color: #fff;
 }
 
@@ -299,11 +299,6 @@ a.download-button span {
   color: #fff;
 }
 
-footer {
-  margin-bottom: 60px;
-  padding-bottom: 60px;
-}
-
 footer .owner {
   background: #222;
   border: 5px solid #444;
@@ -343,6 +338,9 @@ footer .owner p a {
 }
 
 /* Markdown */
+.markdown-body{
+	margin: 0 0 60px 0;
+}
 .markdown-body h1,
 .markdown-body h2,
 .markdown-body h3,
@@ -579,3 +577,6 @@ footer .owner p a {
 .highlight .vg { color: #008080 } /* Name.Variable.Global */
 .highlight .vi { color: #008080 } /* Name.Variable.Instance */
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
+.message {
+	margin: 0 0 100px 0;
+}
